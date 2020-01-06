@@ -1,0 +1,28 @@
+{
+    "name": "ai_game",
+    "version": "1.0.0",
+    "description": "",
+
+    "scripts": {
+        "start": "webpack --mode='development' ",
+        "build": "webpack --mode='production' ",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/FelixMo42-school/AI_game.git"
+    },
+    "author": "FelixMo42",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/FelixMo42-school/AI_game/issues"
+    },
+    "homepage": "https://github.com/FelixMo42-school/AI_game#readme",
+    "dependencies": {
+        "pixi.js": "^5.2.0"
+    },
+    "devDependencies": {
+        "webpack": "^4.41.5",
+        "webpack-cli": "^3.3.10"
+    }
+}
