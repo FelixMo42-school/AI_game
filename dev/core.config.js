@@ -13,6 +13,7 @@ module.exports = {
             template: "./src/index.pug"
         })
     ],
+    
     module: {
         rules: [
             { 
