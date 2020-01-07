@@ -2,10 +2,9 @@
     "name": "ai_game",
     "version": "1.0.0",
     "description": "",
-
     "scripts": {
-        "start": "webpack --mode='development' ",
-        "build": "webpack --mode='production' ",
+        "start": "webpack --config ./dev/watch.config.js",
+        "build": "webpack --config ./dev/build.config.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
